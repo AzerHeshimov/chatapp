@@ -1,14 +1,79 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
-  background: linear-gradient(#2b1055, #7597de);
-  min-height: 100vh;
-}/*# sourceMappingURL=style.css.map */
-
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  
 }
+
+#chatapp {
+  padding-top: 80px;
+}
+#chatapp .chat {
+  border: solid 1px #d4c0fc;
+  background: #c1c9df;
+  border-radius: 20px;
+  width: 500px;
+  height: 340px;
+}
+#chatapp .chat h3 {
+  display: inline-block;
+  background: #7991e7;
+  border-radius: 20px;
+  color: white;
+  word-wrap: break-word;
+  margin: 5px;
+  text-align: start;
+  padding: 8px 7px;
+}
+#chatapp .chat .message {
+  border: solid 1px white;
+  background: white;
+  overflow: auto;
+  width: 450px;
+  height: 240px;
+  margin: 22px 0 0 25px;
+  border-radius: 20px;
+}
+#chatapp .chat .message::-webkit-scrollbar {
+  display: none;
+}
+#chatapp .chat .message .end {
+  text-align: end;
+}
+#chatapp .sent {
+  display: inline-block;
+}
+#chatapp .sent h3 {
+  background: #94a6e6;
+  display: flex;
+  color: white;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 0 10px;
+  padding: 8px 35px;
+  width: 40px;
+}
+#chatapp .text input {
+  margin: 20px 0 0 125px;
+  padding: 6px 8px;
+  border-radius: 20px;
+}
+@media (max-width: 1000px) {
+  #chatapp .chat {
+    margin: 0 50px 40px 0;
+    width: 350px;
+    height: 335px;
+  }
+  #chatapp .chat .message {
+    width: 300px;
+    height: 230px;
+  }
+  #chatapp .chat .message h2 {
+    padding: 10px 10px;
+  }
+  #chatapp .sent h3 {
+    padding: 10px 40px;
+  }
+  #chatapp .text input {
+    margin: 20px 0 0 45px;
+    padding: 8px 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
