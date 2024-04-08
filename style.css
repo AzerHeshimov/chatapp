@@ -1,0 +1,14 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  background: linear-gradient(#2b1055, #7597de);
+  min-height: 100vh;
+}/*# sourceMappingURL=style.css.map */
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
