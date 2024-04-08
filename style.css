@@ -8,14 +8,14 @@ body {
 }
 #chatapp .chat {
   border: solid 1px #d4c0fc;
-  background: #c1c9df;
+  background: #c5cde4;
   border-radius: 20px;
-  width: 500px;
-  height: 340px;
+  width: 550px;
+  height: 380px;
 }
 #chatapp .chat h3 {
   display: inline-block;
-  background: #7991e7;
+  background: #9c8dcf;
   border-radius: 20px;
   color: white;
   word-wrap: break-word;
@@ -27,8 +27,8 @@ body {
   border: solid 1px white;
   background: white;
   overflow: auto;
-  width: 450px;
-  height: 240px;
+  width: 500px;
+  height: 280px;
   margin: 22px 0 0 25px;
   border-radius: 20px;
 }
@@ -42,7 +42,7 @@ body {
   display: inline-block;
 }
 #chatapp .sent h3 {
-  background: #94a6e6;
+  background: #7e75cb;
   display: flex;
   color: white;
   justify-content: center;
