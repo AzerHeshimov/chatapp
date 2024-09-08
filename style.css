@@ -22,6 +22,7 @@ body {
   margin: 5px;
   text-align: start;
   padding: 8px 7px;
+  max-width: 250px;
 }
 #chatapp .message {
   border: solid 1px white;
