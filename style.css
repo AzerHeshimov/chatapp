@@ -69,7 +69,7 @@ body {
 }
 @media (max-width: 1000px) {
   #chatapp .chat {
-    margin: 0 50px 40px 0;
+    margin: 40px auto;
     width: 350px;
     height: 335px;
   }
